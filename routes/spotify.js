@@ -29,6 +29,7 @@ router.get('/music', async(req, res) => {
     const moodToSearch = {
          'happy': 'happy upbeat pop dance party feel good',
          'sad': 'sad melancholy acoustic indie folk emotional',
+         'anxious': 'calm ambient chill relaxing peaceful meditation',
          'energetic': 'workout pump up rock electronic high energy',
          'romantic': 'love songs romantic R&B soul slow',
          'motivated': 'motivational inspiring hip hop rap confident',
